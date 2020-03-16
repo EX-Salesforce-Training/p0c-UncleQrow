@@ -72,5 +72,17 @@
         <members>*</members>
         <name>FlexiPage</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SharingRules</name>
+    </types>
     <version>48.0</version>
 </Package>
