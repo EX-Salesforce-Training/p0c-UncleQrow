@@ -59,7 +59,7 @@
         </rules>
     </decisions>
     <description>Process for Contact Created and the step for creating or relating an account</description>
-    <interviewLabel>Contact_Created_Process-2_InterviewLabel</interviewLabel>
+    <interviewLabel>Contact_Created_Process-4_InterviewLabel</interviewLabel>
     <label>Contact Created Process</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -91,42 +91,6 @@
         <label>Create an Account for it</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Picklist</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Account Source</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue/>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Reference</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>AccountSource</field>
-            <value>
-                <elementReference>myVariable_current.LeadSource</elementReference>
-            </value>
-        </inputAssignments>
         <inputAssignments>
             <processMetadataValues>
                 <name>dataType</name>
@@ -376,7 +340,7 @@
         <object>Account</object>
     </recordCreates>
     <startElementReference>myDecision</startElementReference>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>
