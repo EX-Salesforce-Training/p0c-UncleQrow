@@ -6,7 +6,7 @@
             <name>Send_a_welcome_Emial</name>
             <type>Task</type>
         </actions>
-        <active>false</active>
+        <active>true</active>
         <formula>CreatedDate ==  DATETIMEVALUE(TODAY())</formula>
         <triggerType>onCreateOnly</triggerType>
     </rules>
