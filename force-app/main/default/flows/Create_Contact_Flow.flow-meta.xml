@@ -13,7 +13,7 @@
             <name>Create_the_new_account</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Create_Related_Address</leftValueReference>
+                <leftValueReference>Create_Related_Accounts</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -312,9 +312,9 @@
             <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
         <fields>
-            <name>Create_Related_Address</name>
+            <name>Create_Related_Accounts</name>
             <dataType>Boolean</dataType>
-            <fieldText>Create Related Address?</fieldText>
+            <fieldText>Create Related Account?</fieldText>
             <fieldType>InputField</fieldType>
             <isRequired>true</isRequired>
         </fields>
